@@ -1,0 +1,11 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CounterApp.MainPage"
+             Title="Counter App">
+    <VerticalStackLayout Padding="20">
+        <Button Text="Dodaj licznik" Clicked="OnAddCounterClicked" />
+        <ScrollView>
+            <VerticalStackLayout x:Name="CountersStack" Spacing="20" />
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
